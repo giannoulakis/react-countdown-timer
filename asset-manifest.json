@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/react-countdown-timer/static/css/main.4bfe87ae.chunk.css",
+    "main.js": "/react-countdown-timer/static/js/main.5a06c8c7.chunk.js",
+    "main.js.map": "/react-countdown-timer/static/js/main.5a06c8c7.chunk.js.map",
+    "runtime-main.js": "/react-countdown-timer/static/js/runtime-main.3e16f7db.js",
+    "runtime-main.js.map": "/react-countdown-timer/static/js/runtime-main.3e16f7db.js.map",
+    "static/js/2.d405eaef.chunk.js": "/react-countdown-timer/static/js/2.d405eaef.chunk.js",
+    "static/js/2.d405eaef.chunk.js.map": "/react-countdown-timer/static/js/2.d405eaef.chunk.js.map",
+    "index.html": "/react-countdown-timer/index.html",
+    "precache-manifest.ebbd279968799457c094f41c4b759dd2.js": "/react-countdown-timer/precache-manifest.ebbd279968799457c094f41c4b759dd2.js",
+    "service-worker.js": "/react-countdown-timer/service-worker.js",
+    "static/css/main.4bfe87ae.chunk.css.map": "/react-countdown-timer/static/css/main.4bfe87ae.chunk.css.map",
+    "static/js/2.d405eaef.chunk.js.LICENSE.txt": "/react-countdown-timer/static/js/2.d405eaef.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.3e16f7db.js",
+    "static/js/2.d405eaef.chunk.js",
+    "static/css/main.4bfe87ae.chunk.css",
+    "static/js/main.5a06c8c7.chunk.js"
+  ]
+}
