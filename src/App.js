@@ -2,24 +2,24 @@ import React, { useState, useRef, useEffect } from 'react';
 import Timer from './Timer';
 
 function App() {
-  
+
   const inputEl = useRef(null);
-  
+
   const [running, setRunning] = useState(false);
   const [minutes, setMinutes] = useState(25);
 
   function handleStart(){
-    localStorage.setItem('minutes',minutes); //remember 
+    localStorage.setItem('minutes',minutes); //remember
     setRunning(true);
   }
-  
+
   function handleStop(){
     setRunning(false);
     setPageTitle('Finished')
   }
 
   function handleKeydown(e){
-    return e.keyCode===27 && handleStop() 
+    return e.keyCode===27 && handleStop()
   }
 
   useEffect(()=>{
@@ -33,18 +33,17 @@ function App() {
       if(saved) setMinutes(saved);
 		}
     document.addEventListener('keydown',handleKeydown);
-    
+
     return ()=> document.removeEventListener('keydown',handleKeydown);
   },[])
 
- 
+
   useEffect(()=>{
     if(!running) inputEl.current.focus();
   },[running])
-  
-  return (
-    <div>
 
+  return (
+    <main>
       {!running?
         (
           <div className="config">
@@ -58,7 +57,7 @@ function App() {
           <Timer minutes={ minutes } onUpdate={ setPageTitle } onFinish={ handleStop } />
         </div>
       )}
-    </div>
+    </main>
   );
 }
 

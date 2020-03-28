@@ -1,4 +1,6 @@
 import React, { useState, useEffect } from 'react';
+import ScreenLock from './ScreenLock';
+
 
 export default function Timer(props){
 
@@ -22,13 +24,13 @@ export default function Timer(props){
         }
 
         setProgress(100 - Math.floor(timeLeft/(props.minutes*60*1000)*100));
-        
+
         setTimeFormatted(Math.floor(timeLeft/1000/60)+':'+('0'+(timeLeft/1000)%60).substr(-2,2));
 
         const timer = setTimeout(tick,1000);
 
         return () => clearTimeout(timer);
-    },[timeLeft,timestampEnd])    
+    },[timeLeft,timestampEnd])
 
     useEffect(()=>{
         if(props.onUpdate){
@@ -38,10 +40,10 @@ export default function Timer(props){
 
     return (
         <div>
+            <ScreenLock />
             <div className="progress" style={{width:progress+'%'}}></div>
             <div className="clock">{timeFormatted}</div>
         </div>
     );
-
 
 }
