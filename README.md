@@ -3,13 +3,13 @@
 ## A minimal timer to improve focus :godmode:
 
 **Demo:**
-https://giannoulakis.githubpages.io/react-countdown-timer
+https://giannoulakis.github.io/react-countdown-timer
 
 **Start a 10 minute timer**
-https://giannoulakis.githubpages.io/react-countdown-timer#10
+https://giannoulakis.github.io/react-countdown-timer#10
 
 **Start 1 pomodoro**
-https://giannoulakis.githubpages.io/react-countdown-timer#25
+https://giannoulakis.github.io/react-countdown-timer#25
 
 
 Personally I this is a very effective method to focus and get things done.
