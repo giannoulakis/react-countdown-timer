@@ -24,7 +24,7 @@ body {
   background:#2561b8;
 }
 .config input,
-.config.button {
+.config button {
   flex:1;
 }
 
