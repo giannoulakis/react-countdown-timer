@@ -12,7 +12,7 @@ https://giannoulakis.github.io/react-countdown-timer#10
 https://giannoulakis.github.io/react-countdown-timer#25
 
 
-Personally I this is a very effective method to focus and get things done.
+Personally I find this a very effective method to focus and get things done.
 
 Breaking down tasks into micro-tasks (around 10 minute each), start a countdown timer and challenge myself to finish the task before the timer ends. :hourglass:
 
