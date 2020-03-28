@@ -21,7 +21,7 @@ Breaking down tasks into micro-tasks (around 10 minute each), start a countdown 
 
 I keep in a small corner of my desktop, with an always visible list of clear actions :memo:. It reminds me of what I'm doing and how much time I have left.
 
-![always visible timer](https://raw.github.com/giannoulakis/react-countdown-timer/master/Equalizer.jpg)
+![always visible timer](https://raw.githubusercontent.com/giannoulakis/react-countdown-timer/master/screenshot.png)
 
 
 ### Achievements
